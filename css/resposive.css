@@ -1,0 +1,45 @@
+@media only screen and (max-width: 650px){
+    nav{
+        display: flex;
+        width: 100vw;
+        padding: 10px;
+        position: sticky;
+        top: 0%;
+        align-items: center;
+    }
+    .navlist{
+        visibility: visible;
+        flex-direction: column;
+        background: #fff;
+        position: absolute;
+        top: 5vh;
+        left: 0%;
+        width: 100vw;
+        transition: all 0.2s ease-out;
+    }
+    .navlist li a{
+        color: black;
+    }
+    .v-nav{
+        visibility: hidden;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .service-sec{
+        width: 100%;
+    }
+    .service-block{
+        flex-direction: column;
+    }
+    .inputs > input{
+        width: 40vw;
+        margin: 0 5vw;
+        padding: 12px;
+        font-size: 15px;
+    }    
+    .labels > label{
+        margin: 0 5vw;
+    }
+}

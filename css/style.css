@@ -1,0 +1,265 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --gray: gray;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+}
+
+nav{
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    padding: 10px;
+    transition: all 1s ease-in-out;
+}
+
+nav h2{
+    width: 50%;
+    text-align: center;
+}
+
+.navlist{
+    float: right;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navlist li{
+    list-style: none;
+    padding: 10px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
+.navlist li a:hover{
+    color: skyblue;
+}
+
+.navlist a:active{
+    background: var(--gray);
+}
+
+#home{
+    color: green;
+}
+
+#contact{
+    margin-right: 15px;
+}
+
+.lines{
+    width: 38px;
+    height: 7px;
+    background: skyblue;
+    margin: 2px;
+}
+
+.hamburger{
+    float: right;
+    display: none;
+    width: 50%;
+    text-align: center;
+}
+
+.bg{
+    background: rgba(0,0,0,0.5) url(img/bg-5.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.first-section{
+    width: 100vw;
+    height: 80vh;
+}
+
+.banner{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    top: 0%;
+}
+
+.banner-txt{
+    padding: 15px 0;
+}
+
+.banner > h2{
+    font-size: 30px;
+    color: #fff;
+}
+
+.banner > p{
+    font-size: 20px;
+    color: #cacaca;
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn-lr{
+    padding: 14px 10px;
+    width: 142px;
+    height: 50px;
+    background: skyblue;
+    border: none;
+    border-radius: 7px;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+    background: var(--gray);
+}
+
+.navbar-scroll{
+    background-color: #fff;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+}
+
+.navbar-scroll > ul > li > a{
+    color: black; 
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    margin: 70px 0;
+    font-size: 35px;    
+}
+
+.show-lines{
+    display: flex;
+}
+
+.layer{
+    width: 41px;
+    height: 5px;
+    margin: 2px;
+    background: gray;
+}
+
+.middle-layer{
+    background: #6f6;
+}
+
+.service-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.service-sec{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 33.34%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.service-sec img{
+    width: 40%;
+    padding-bottom: 15px;
+}
+
+.small-txt{
+    font-size: 15px;
+}
+
+.big-txt{
+    font-size: 20px;
+}
+
+.service-sec p{
+    text-align: center;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;align-items: center;
+    justify-content: center;
+}
+
+.labels{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.labels > label{
+    width: 40vw;
+    margin: 0 50px;
+}
+
+.inputs{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.inputs > input{
+    width: 40vw;
+    margin: 0 50px;
+    padding: 12px;
+    font-size: 15px;
+}
+
+form textarea{
+    width: 88vw;
+    font-size: 15px;
+    padding: 10px;
+}
+
+form p,button{
+    text-align: center;
+    margin: 20px 0;
+}
+
+form p{
+    color: gray;
+}
+
